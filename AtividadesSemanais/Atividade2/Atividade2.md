@@ -1,7 +1,6 @@
 Atividade Semanal 2
 SEL0614 - Aplicação de Microprocessadores (2024)
 
-
 Discentes: 
 Marcelo Eduardo Reginato
 Rhayna Christiani Vasconcelos Marques Casado
@@ -51,3 +50,5 @@ Questão 6
 
 Questão 7
 # Abaixo é apresentado o diagrama de um microcontrolador. Qual a arquitetura utilizada e como chegamos a essa conclusão? Quantas portas I/O bidirecional e quantas linhas (bits/pinos) são endereçados de forma individual neste microcontrolador, com base neste diagrama?
+
+<img src = "./ativ2-fig1.png"/>
