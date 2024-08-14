@@ -1,12 +1,12 @@
-## Atividade Semanal 2
-## SEL0614 - Aplicação de Microprocessadores (2024)
+<h1> Atividade Semanal 2 </h1>
+<h2> SEL0614 - Aplicação de Microprocessadores (2024) </h2>
 
 ### Discentes: 
-#### Marcelo Eduardo Reginato
-#### Rhayna Christiani Vasconcelos Marques Casado
+Marcelo Eduardo Reginato
+Rhayna Christiani Vasconcelos Marques Casado
 
-### Docente: Pedro Oliveira
-### Data: 14/08/2024
+Docente: Pedro Oliveira
+Data: 14/08/2024
 
 
 ### Questão 3
