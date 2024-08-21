@@ -47,15 +47,24 @@ O perfil ideal envolve uma baixa capacidade de CPU por ser um projeto mais simpl
 ### Questão 6
 #### Indique quais afirmativas se aplicam a uma instrução CISC e quais a uma instrução RISC:
 CISC:
+
 ➔ Mais instruções disponíveis
+
 ➔ Programas menores
+
 ➔ Processamento de cada instrução é mais lento
 
+
 RISC:
+
 ➔ Os programas são mais complexos
+
 ➔ A maioria das instruções tem a mesma duração
+
 ➔ Utiliza menos espaço na memória de programa
+
 ➔ Microcontroladores PIC, AVR, ARM
+
 ➔ Tempo de execução das instruções depende da frequência do clock.
 
 ### Questão 7
