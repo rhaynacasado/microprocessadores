@@ -1,6 +1,8 @@
 org 0000h
 
 main:
+	JMP transfdados
+	JMP instrucoesaritm
 
 transfdados:
 	MOV A, #12h
@@ -13,3 +15,6 @@ transfdados:
 	MOV R1, 0x50b	;Conferir
 	MOV A, @R1
 	MOV DPTR, #0x9A5B
+
+instrucoesaritm:
+	
