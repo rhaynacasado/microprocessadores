@@ -16,25 +16,25 @@ delay:						; salta para a rotina de delay com tempo respectivo a cada switch
 	RET						; se nao tiverem switches atividados, retorna para desligar o display
 	
 delayA250: 			; rotina para delay de 250 milisegundos
-	MOV R2, #5		; Utilizando mais um registrador
+	MOV R2, #5		; utilizando o registrador R2 como fator multiplicativo para a rotina de 50 milisegundos
 delayB250:		 
     MOV R1, #100    
 delayC250:
     MOV R0, #250   
     DJNZ R0, $    
     DJNZ R1, delayC250
-	DJNZ R2, delayB250
+	DJNZ R2, delayB250	; repetindo a rotina de 50 milisegundos com base no valor armazenado em R2
 	RET
 
 delayA1000: 		; rotina para delay de 1000 milisegundos
-	MOV R2, #20
+	MOV R2, #20		; utilizando o registrador R2 como fator multiplicativo para a rotina de 50 milisegundos
 delayB1000:		
     MOV R1, #100    
 delayC1000:
     MOV R0, #250   
     DJNZ R0, $    
     DJNZ R1, delayC1000
-	DJNZ R2, delayB1000
+	DJNZ R2, delayB1000	; repetindo a rotina de 50 milisegundos com base no valor armazenado em R2
 	RET
 
 ;*******ativando display de 7 segmentos*********
